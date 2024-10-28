@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Footer from "./components/Footer.vue";
 import Navbar from "./components/Navbar.vue";
+import CallToAction from "./components/CallToAction.vue";
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import Navbar from "./components/Navbar.vue";
     <Navbar />
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
+    <CallToAction />
     <Footer />
   </div>
 </template>
