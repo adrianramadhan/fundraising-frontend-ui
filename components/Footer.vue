@@ -3,7 +3,7 @@
     <div class="container mx-auto">
       <div class="sm:flex mb-4">
         <div class="sm:w-1/2 sm:mt-0 mt-8 h-auto">
-          <img src="../static/logo-footer.svg" alt="logo-footer" class="mb-3" />
+          <img src="../public/logo-footer.svg" alt="logo-footer" class="mb-3" />
           <p class="font-light">
             Helps people execute their <br />bright ideas
           </p>

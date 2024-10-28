@@ -1,7 +1,7 @@
 <template>
   <header class="flex items-center">
     <div style="height: 54px" class="pr-5">
-      <img src="../static/logo.svg" alt="logo" class="h-full" />
+      <img src="../public/logo.svg" alt="logo" class="h-full" />
     </div>
     <ul class="flex items-center">
       <li>
@@ -30,7 +30,7 @@
     <ul class="flex ml-auto items-center mt-2">
       <li>
         <NuxtLink
-          to="/register"
+          to="#"
           class="inline-block bg-transparent border-white border hover:bg-white hover:bg-opacity-25 text-white font-light w-40 text-center px-6 py-1 text-lg rounded-full mr-4"
         >
           Sign Up
@@ -38,7 +38,7 @@
       </li>
       <li>
         <NuxtLink
-          href="/login"
+          href="#"
           class="inline-block bg-transparent border-white border hover:bg-white hover:bg-opacity-25 text-white font-light w-40 text-center px-6 py-1 text-lg rounded-full"
         >
           My Account

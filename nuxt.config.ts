@@ -22,4 +22,13 @@ export default defineNuxtConfig({
       ],
     },
   },
+  nitro: {
+    routeRules: {
+      "/socket.io/**": { proxy: "http://localhost:3000/socket.io/**" },
+      "/__nuxt_error": { cache: false },
+    },
+  },
+  experimental: {
+    appManifest: false,
+  },
 });
