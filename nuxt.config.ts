@@ -31,4 +31,13 @@ export default defineNuxtConfig({
   experimental: {
     appManifest: false,
   },
+
+  runtimeConfig: {
+    // Konfigurasi yang hanya tersedia di server
+    apiSecret: "",
+    // Konfigurasi yang tersedia di client dan server
+    public: {
+      apiBase: "",
+    },
+  },
 });
