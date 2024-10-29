@@ -121,7 +121,7 @@ import CallToAction from "../components/CallToAction.vue";
               </p>
               <div class="relative pt-4 progress-bar">
                 <div
-                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200 h-3 rounded-lg"
+                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200"
                 >
                   <div
                     style="width: 20%"
@@ -162,7 +162,7 @@ import CallToAction from "../components/CallToAction.vue";
               </p>
               <div class="relative pt-4 progress-bar">
                 <div
-                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200 h-3 rounded-lg"
+                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200"
                 >
                   <div
                     style="width: 45%"
@@ -201,7 +201,7 @@ import CallToAction from "../components/CallToAction.vue";
               </p>
               <div class="relative pt-4 progress-bar">
                 <div
-                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200 h-3 rounded-lg"
+                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200"
                 >
                   <div
                     style="width: 80%"
@@ -244,7 +244,7 @@ import CallToAction from "../components/CallToAction.vue";
               </p>
               <div class="relative pt-4 progress-bar">
                 <div
-                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200 h-3 rounded-lg"
+                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200"
                 >
                   <div
                     style="width: 45%"
@@ -285,7 +285,7 @@ import CallToAction from "../components/CallToAction.vue";
               </p>
               <div class="relative pt-4 progress-bar">
                 <div
-                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200 h-3 rounded-lg"
+                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200"
                 >
                   <div
                     style="width: 70%"
@@ -326,7 +326,7 @@ import CallToAction from "../components/CallToAction.vue";
               </p>
               <div class="relative pt-4 progress-bar">
                 <div
-                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200 h-3 rounded-lg"
+                  class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200"
                 >
                   <div
                     style="width: 10%"
