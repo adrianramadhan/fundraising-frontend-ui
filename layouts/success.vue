@@ -1,5 +1,5 @@
 <template>
   <div class="success-page">
-    <Nuxt />
+    <slot />
   </div>
 </template>
