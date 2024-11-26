@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   runtimeConfig: {
     public: {
-      apiBase: "https://api.example.com", // You can access this in your app with useRuntimeConfig()
+      apiBase: process.env.API_BASE || "http://localhost:8080/",
     },
   },
   app: {
