@@ -1,8 +1,12 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss"],
+  runtimeConfig: {
+    public: {
+      apiBase: "https://api.example.com", // You can access this in your app with useRuntimeConfig()
+    },
+  },
   app: {
     head: {
       link: [
